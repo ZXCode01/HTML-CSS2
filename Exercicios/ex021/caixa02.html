@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <Style>
+        /* Header, Main, Footer, Section, article e aside podem ser customizados em CSS de forma muito mais pratica e precisa*/
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 10px #000000d4;
+        }
+        h1 {
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.541);
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 10px #000000d4;
+        }
+        nav {
+            background-color: rgb(92, 92, 92);
+            padding: 3px;
+             box-shadow: 2px 3px 4px rgb(117, 117, 117)
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(172, 172, 172);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+        }
+         footer > p { 
+            margin: 0px;
+         }
+        /* div#bola {
+            
+         } */
+    </Style>
+</head>
+<body>
+    <header>
+        <h1>Meus sites</h1>
+        <nav>
+            <a href="https://www.youtube.com/@Madjer07" target="_blank">Youtube</a>
+            <a href="https://github.com/ZXCode01" target="_blank">Github</a>
+            <a href="https://www.twitch.tv/codemasternova" target="_blank">Twitch</a>
+            <a href="https://www.instagram.com/madjer_wesley/" target="_blank">Instagram</a>
+        </nav>
+    </header>
+    <main> 
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+        <article>
+            <h1>Noticias sobre Lorem</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate iure ipsa adipisci quos dignissimos quibusdam velit molestiae! Expedita autem enim fuga id eum nisi. Iste distinctio sed accusamus nulla adipisci.</p>
+            <aside>
+                <p>Artigo escrito por Almar Amarantes</p>
+            </aside>
+        </article>
+        <article>
+
+        </article>
+    </section>
+    </main>
+    <footer>
+        <p>desenvolvido por CodeMasterNOVA</p>
+    </footer>
+     <div id="bola"></div>
+</body>
+</html>

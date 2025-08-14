@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio das imagens dinamicas</title>
+    <style>
+body { 
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    color: rgb(48, 48, 48);
+}
+     p {
+        font: normal 15pt arial;
+     }
+   </style>
+</head>
+<body>
+    <h1>testando as imagens dinamicas</h1>
+    <p>veremos como sai o desempenho das imagens</p> 
+    <picture>
+        <source media="(max-width: 750px)" srcset="ImagensD7/P2.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="ImagensD7/M2.png" type="image/png">
+        <img src="ImagensD7/G2.png" alt="imagem maior">
+    </picture>
+    <p>FEITO</p>
+</body>
+</html>

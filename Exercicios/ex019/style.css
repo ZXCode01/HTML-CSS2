@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 
+  para configurar textos especificos para alteração em CSS é 
+  em HTML id =  #  somente pode um elemento por página
+  em HTML class =  . dá para se aplicar mais de uma classe a um elemento
+*/
+body {
+    background-color: #b3ffb7;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+#principal {
+    text-align: center;
+    background-color: rgb(76, 76, 209);
+    color: white;
+  }
+h1 {
+     color:#1e3838;
+ }
+.HTML {
+  background-color: #e6e22e;
+}
+.CSS {
+  background-color: #e6e22e;
+}
+.basico {
+    color:#aaa70a;
+ }
+.intermediario {
+  color:rgb(14, 211, 145);
+}
+.avançado {
+  color:rgb(16, 94, 240) ;
+}
